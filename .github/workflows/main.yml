@@ -1,23 +1,25 @@
-name: Generate Snake Contribution
+name: Update Snake Contribution
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
+    - cron: "0 */6 * * *"  # Cada 6 horas
+  workflow_dispatch:       # Ejecución manual
 
 permissions:
-  contents: write  # Esto es esencial para permitir el push
+  contents: write         # Permiso esencial para hacer push
 
 jobs:
-  build:
+  generate-snake:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Necesario para el historial completo de Git
+          fetch-depth: 0  # Necesario para el historial completo
 
-      - uses: Platane/snk@v3
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: augvstTTY
           outputs: |
@@ -25,13 +27,16 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: Commit and push changes
+      - name: Commit & Push Changes
         run: |
+          # Configuración de Git
           git config user.name "github-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Sincroniza cambios y hace push seguro
           git add dist/
-          git commit -m "Update snake contribution" || echo "No changes to commit"
-          git push
+          git pull --rebase origin main
+          git commit -m "Update snake contribution [skip ci]" || echo "No changes to commit"
+          git push origin main
         env:
-          # Usamos el token especial de GitHub
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
