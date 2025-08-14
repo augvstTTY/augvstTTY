@@ -1,44 +1,50 @@
-name: Update Snake Contribution
+name: Generate Snake Contribution
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
+    - cron: "0 */6 * * *" # Ejecutar cada 6 horas
+  workflow_dispatch:       # Permite ejecución manual
 
 permissions:
-  contents: write
+  contents: write          # Permite que el workflow haga commits
 
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+    env:
+      GITHUB_USER: augvstTTY
+      TARGET_BRANCH: main
 
-      - name: Generate Snake
+    steps:
+      # 1. Clonar el repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Necesario para acceder al historial completo
+
+      # 2. Generar las imágenes de la serpiente
+      - name: Generate Snake Images
         uses: Platane/snk@v3
         with:
-          github_user_name: augvstTTY
+          github_user_name: ${{ env.GITHUB_USER }}
           outputs: |
-            github-snake.svg  # Cambiado a raíz para simplificar
-            github-snake-dark.svg?palette=github-dark
-            snake.gif?color_snake=orange
+            ./github-snake.svg
+            ./github-snake-dark.svg?palette=github-dark
+            ./snake.gif?color_snake=orange
 
+      # 3. Commit y push de cambios (solo si hay cambios reales)
       - name: Commit and Push Changes
         run: |
-          # Configuración Git
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          
-          # Asegurar que tenemos los últimos cambios
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git fetch origin
-          git reset --hard origin/main
-          
-          # Commit y push
+
           git add *.svg *.gif
-          git commit -m "Update snake contribution [skip ci]" || echo "No changes to commit"
-          git push origin main
+          if git diff --cached --quiet; then
+            echo "No hay cambios nuevos para commitear."
+            exit 0
+          fi
+
+          git commit -m "chore: update snake contribution [skip ci]"
+          git push origin ${{ env.TARGET_BRANCH }}
+
