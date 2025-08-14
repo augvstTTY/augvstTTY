@@ -2,8 +2,6 @@
 
 I'm Agusto Lúe Morales — BSc in Computer Science · Mechatronics Engineering Student
 
-![Snake animation](https://github.com/augvstTTY/augvstTTY/blob/main/dist/ocean.gif)
-
 
 ```zsh
 
