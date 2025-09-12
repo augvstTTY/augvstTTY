@@ -1,4 +1,4 @@
-## Hello everyone! 👋🏻
+# Hello everyone! 👋🏻
 
 **BSc Computer Science · Mechatronics Engineering**
 
