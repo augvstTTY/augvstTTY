@@ -4,7 +4,7 @@
 
 Blending logic and mechanics to build for the human experience.
 
-💭<blockquote>"Life's most persistent and urgent question is, 'What are you doing for others?</blockquote> - MLK
+<blockquote>💭 "Life's most persistent and urgent question is, 'What are you doing for others?" - MLK</blockquote> 
 
 
 ![Snake animation dark](https://raw.githubusercontent.com/augvstTTY/augvstTTY/main/github-snake-dark.svg)
