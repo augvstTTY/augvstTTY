@@ -1,6 +1,6 @@
 # Hello everyone! 👋🏻
 
-**BSc Computer Science · Mechatronics Engineering**
+**Bachelor of Computer Science · Mechatronics Engineering**
 
 Blending logic and mechanics to build for the human experience.
 
