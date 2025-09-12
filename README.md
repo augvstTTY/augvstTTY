@@ -7,8 +7,8 @@
 
 ![Snake animation dark](https://raw.githubusercontent.com/augvstTTY/augvstTTY/main/github-snake-dark.svg)
 
+### 🚀 Open Source - Shared Progress.
+Every project is an open invitation. Fork it. Tweak it. Build upon it. Let’s create what’s next.
 
-### 🚀 Open Source Advocate
 
-If any of my projects sparks your interest, feel free to explore, fork, or contribute!  
-Your engagement fuels open-source innovation.
+
