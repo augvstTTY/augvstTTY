@@ -11,7 +11,12 @@ Building bridges between technology and people. Where engineering meets its most
 
 
 ### 🚀 Open Source - Shared Progress.
-Every project is an open invitation. Fork it. Tweak it. Build upon it. Let’s create what’s next.
+Every repository is an open canvas.  
+Fork it. Shape it. Reimagine it.  
+Innovation belongs to all of us.
 
+
+### 📊 By the Numbers
+![Stats](https://github-readme-stats.vercel.app/api?username=augvstTTY&show_icons=true&theme=transparent)
 
 
