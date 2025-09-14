@@ -16,9 +16,7 @@ Fork it. Shape it. Reimagine it.
 Innovation belongs to all of us.
 
 
-### 📊 By the Numbers
 
-![Stats](https://github-readme-stats.vercel.app/api?username=augvstTTY&show_icons=true&theme=transparent&title_color=FFD700&icon_color=FFD700&text_color=FFD700)
 
 
 
