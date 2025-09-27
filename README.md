@@ -6,6 +6,8 @@ I am passionate about building efficient and scalable back-end systems and netwo
 
 ![Snake animation dark](https://raw.githubusercontent.com/augvstTTY/augvstTTY/main/github-snake-dark.svg)
 
+### Applied Rigor
+
 I am driven by a strong commitment to knowledge sharing and applying rigorous computer science theory to real-world engineering challenges.
 
 <Blockquote>
