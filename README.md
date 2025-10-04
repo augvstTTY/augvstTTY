@@ -6,9 +6,9 @@ On a path from learning rigorous foundations to applying elegant solutions. I'm 
 
 ![Snake animation dark](https://raw.githubusercontent.com/augvstTTY/augvstTTY/main/github-snake-dark.svg)
 
-### Applied Rigor
+### Learning in Public, Building with Rigor
 
-I am driven by a strong commitment to knowledge sharing and applying rigorous computer science theory to real-world engineering challenges.
+I believe in the power of sharing knowledge and grounding my work in fundamental CS principles to solve tangible engineering challenges.
 
 <Blockquote>
 "Computer science is no more about computers than astronomy is about telescopes." - Edsger W. Dijkstra.
