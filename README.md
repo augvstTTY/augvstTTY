@@ -2,7 +2,7 @@
 
 **Bachelor of Computer Science · Mechatronics Engineering Student**
 
-I am passionate about building efficient and scalable back-end systems and network infrastructure. My interest lies in solving practical data-intensive problems—like traffic analysis or large-scale data processing—using minimalist and efficient algorithmic solutions (e.g., streaming algorithms and probabilistic data structures). 
+On a path from learning rigorous foundations to applying elegant solutions. I'm passionate about building scalable back-end systems and tackling data-intensive problems through minimalist algorithms like streaming and probabilistic data structures.
 
 ![Snake animation dark](https://raw.githubusercontent.com/augvstTTY/augvstTTY/main/github-snake-dark.svg)
 
