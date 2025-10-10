@@ -2,16 +2,16 @@
 
 **Bachelor of Computer Science · Mechatronics Engineering Student**
 
-Driven by curiosity — exploring how solid computer science foundations can solve real engineering challenges.
-I enjoy learning in public, building with intention, and sharing what I discover along the way.
+Driven by curiosity — exploring how strong computer science principles can shape real engineering work.
+I’m still learning, building, and refining my craft — and I share what I discover along the way.
 
 ![Snake animation dark](https://raw.githubusercontent.com/augvstTTY/augvstTTY/main/github-snake-dark.svg)
 
 
 ###  Learning, building, daring — the only way to create lasting change 🌱
 
-I believe understanding the “why” behind systems leads to simpler, more enduring solutions.
-My work spans from scalable back-end architectures to minimalist algorithms like streaming and probabilistic data structures.
+I believe that understanding the “why” behind systems leads to simpler, more thoughtful solutions.
+I’m drawn to scalable back-end design and minimalist algorithms like streaming and probabilistic structures.
 
 
 <Blockquote>
