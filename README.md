@@ -1,17 +1,15 @@
 # Hello everyone! 👋🏻
 
-**Bachelor of Computer Science · Mechatronics Engineering Student**
+**Mechatronics Engineering Student | Computer Science graduate**
 
-Driven by curiosity — exploring how strong computer science principles can shape real engineering work.
-I’m still learning, building, and refining my craft — and I share what I discover along the way.
+Applying computational thinking and robust software practices to solve tangible engineering challenges. I'm currently building my skills in mechatronics and sharing key insights from the intersection of code and hardware
 
 ![Snake animation dark](https://raw.githubusercontent.com/augvstTTY/augvstTTY/main/github-snake-dark.svg)
 
 
-###  Learning, building, daring — the only way to create lasting change 🌱
+### Learning, building, and tackling complex problems — my framework for creating robust systems. 🌱 
 
-I believe that understanding the “why” behind systems leads to simpler, more thoughtful solutions.
-I’m drawn to scalable back-end design and minimalist algorithms like streaming and probabilistic structures.
+That's why I'm focused on scalable back-end design and efficient algorithms, from streaming models to probabilistic data structures.
 
 
 <Blockquote>
