@@ -2,14 +2,16 @@
 
 **Mechatronics Engineering Student | Computer Science graduate**
 
-Applying computational thinking and robust software practices to solve tangible engineering challenges. I'm currently building my skills in mechatronics and sharing key insights from the intersection of code and hardware
+I’m learning how code, mechanics, and electronics can work together to solve real problems. Most of what I build starts as an experiment — something small that teaches me a bit more about how systems think and behave.
+
+Lately, I’ve been drawn to how engineering principles show up in biomedical tech and Formula 1 — two worlds where precision, timing, and iteration define everything.
 
 ![Snake animation dark](https://raw.githubusercontent.com/augvstTTY/augvstTTY/main/github-snake-dark.svg)
 
 
-### Learning, building, and tackling complex problems — my framework for creating robust systems. 🌱 
+### I build, test, break, and rebuild — that’s where the fun is. 🌱 
 
-That's why I'm focused on scalable back-end design and efficient algorithms, from streaming models to probabilistic data structures.
+I keep exploring ways to write cleaner code and design smarter systems, one project at a time.
 
 <Blockquote>
 "Computer science is no more about computers than astronomy is about telescopes." - <b>Edsger W. Dijkstra</b>.
