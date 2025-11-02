@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GITHUB_USER: augvstTTY
+      GITHUB_USER: itsaugvst0x01
       TARGET_BRANCH: main
 
     steps:
