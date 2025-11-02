@@ -10,14 +10,14 @@ I study how engineering principles drive biomedical tech and Formula 1—fields 
 ![Snake animation dark](https://raw.githubusercontent.com/augvstTTY/augvstTTY/main/github-snake-dark.svg)
 
 
-### I build, test, break, and rebuild — it’s the only way to create lasting change. 🌱
+### I build, test, fail,, and rebuild — It's the only way to bring about change. 🌱
 
-Always learning, always trying to write cleaner code and design smarter systems — one project at a time.
+Always learning: cleaner code, precise systems—one project at a time.
 
 <Blockquote>
-"Computer science is no more about computers than astronomy is about telescopes."
+"Measure what is measurable, and make measurable what is not so."
 <br>
-<b>— Edsger W. Dijkstra</br>s
+<b>— Galileo Galilei</br>
 </Blockquote>
 
 
