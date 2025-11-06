@@ -4,23 +4,23 @@
 
 **Building curiosity into every system.**
 
-I’m exploring how code, mechanics, and electronics come together to solve real problems.
-Most of what I build begins as a small experiment — a hands-on way to understand how systems think, move, and fail.
+I’m learning how code, mechanics, and electronics connect to create things that actually work.
+Most of what I build starts as a small experiment — a way to test ideas, see how systems react, and understand why they fail before they don’t.
 
-I keep iterating, often failing first, to push error rates below 5%.
+I keep iterating, trying, and fixing — chasing that moment when the numbers finally make sense.
 
 
 <hr><br>
 
 **Where precision meets motion.**
 
-I’m drawn to the engineering principles behind biomedical tech and Formula 1 — worlds where:
+I’m especially interested in the engineering behind biomedical tech and Formula 1 — places where:
 
-- Precision reaches the μm scale (like in surgical robotics)
+- Precision reaches the micrometer scale (like in surgical robotics)
 
-- Timing demands < 1 ms (as in F1 engine control)
+- Timing has to be faster than a blink (under 1 ms in F1 control systems)
 
-- Success depends on rapid iteration, sometimes 100+ times per race weekend
+- Progress comes from constant iteration — sometimes 100+ tweaks per race weekend
 
 <br>
 
