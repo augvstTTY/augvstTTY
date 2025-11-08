@@ -1,18 +1,17 @@
 # Welcome to the garage! 👋🏻
 
-### Mechatronics Engineering Student · Computer Science Graduate
+### 💡 Curiosity keeps me moving.
 
-**💡 Curiosity in motion.**
-
-Exploring how code, mechanics, and electronics come alive together.  
-Building, failing, learning — always improving.
+I’m a Mechatronics engineering student and a Computer Science graduate,
+exploring how code, mechanics, and motion align.
 
 ---
 
-**🏁 Where precision meets motion.**
+### 🏁 I build, I fail, I learn — and I refine.
 
-I’m fascinated by how Formula 1 and biomedical tech chase perfection —  
-down to micrometers, milliseconds, and endless iterations.
+
+I'm drawn to the precision of Formula 1 and biomedical tech —
+both chasing perfection through micrometers and milliseconds.
 
 > "I haven't failed. I've just found 10,000 ways that don't work."  
 > **— Thomas A. Edison**
