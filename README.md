@@ -1,20 +1,20 @@
 # Welcome to the garage 👋🏻  
 
-### 💡 Curiosity keeps me moving  
+### Curiosity built this place  
 
-I’m a Mechatronics engineering student and a Computer Science graduate.  
-Exploring how code, mechanics, and motion come alive together.  
+I’m a Mechatronics Engineering student and Computer Science graduate —  
+always exploring how code, motion, and design can move in harmony.  
 
 ---
 
-### 🏁 I build. I fail. I learn. I refine.  
+### Build. Learn. Refine. Repeat.  
 
-Drawn to the precision of Formula 1 and biomedical tech —  
-both chasing perfection through micrometers and milliseconds.  
+Fascinated by the precision of Formula 1 and the purpose of biomedical tech —  
+both remind me that progress lives in the details.  
 
 > “I haven’t failed. I’ve just found 10,000 ways that don’t work.”  
-> **— Thomas A. Edison**  
+> **— Thomas A. Edison**
 
----
+
 
 ![Snake animation dark](https://raw.githubusercontent.com/augvstTTY/augvstTTY/main/github-snake-dark.svg)
