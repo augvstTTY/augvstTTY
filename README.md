@@ -2,17 +2,11 @@
 
 ### Built by curiosity  
 
-I’m a **Mechatronics Engineering student** and **Computer Science graduate** —  
-exploring where code, motion, and design meet in precision.  
+I’m a Mechatronics Engineering student and Computer Science graduate,
+exploring how code, motion, and design evolve through constant refinement.
+Inspired by the precision of Formula 1 and the purpose behind biomedical tech,
+I believe progress is built one iteration at a time.
 
----
-
-### Build. Learn. Refine. Repeat.  
-
-Fascinated by the discipline of **Formula 1** and the purpose behind **biomedical tech** —  both remind me that progress lives in the details.  
-
-
-*(Silence speaks after good work.)*
-
+(Silence speaks after good work.)
 
 ![Snake animation dark](https://raw.githubusercontent.com/augvstTTY/augvstTTY/main/github-snake-dark.svg)
