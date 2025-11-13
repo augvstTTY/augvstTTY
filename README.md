@@ -1,6 +1,6 @@
-# Welcome to the garage 👋🏻  
+# Welcome to my garage 👋🏻 
 
-### Built by curiosity  
+### Learning in motion 
 
 I’m a Mechatronics Engineering student and Computer Science graduate,
 exploring how code, motion, and design evolve through constant refinement.
