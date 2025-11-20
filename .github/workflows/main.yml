@@ -30,17 +30,14 @@ jobs:
           github_user_name: ${{ env.GITHUB_USER }}
           outputs: |
             ./github-snake.svg
-            ./github-snake-dark.svg?palette=github-dark&color_snake=#DC0000 
+            ./github-snake-dark.svg?palette=github-dark 
             ./snake.gif?color_snake=orange
 
-      # 3. Commit y push de cambios (solo si hay cambios reales)
+      # 3. Commit y push de cambios (solo si hay cambios reales) 
       - name: Commit and Push Changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-
-          # ↓↓↓↓ AÑADE ESTA LÍNEA CRUCIAL ↓↓↓↓
-          git pull origin ${{ env.TARGET_BRANCH }} --rebase
 
           git add *.svg *.gif
           if git diff --cached --quiet; then
