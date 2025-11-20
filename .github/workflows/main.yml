@@ -30,20 +30,18 @@ jobs:
           github_user_name: ${{ env.GITHUB_USER }}
           outputs: |
             ./github-snake.svg
-            ./github-snake-dark.svg?palette=github-dark&color_snake=#DC0000 
+            ./github-snake-dark.svg?palette=github-dark
             ./snake.gif?color_snake=orange
-
       # 3. Commit y push de cambios (solo si hay cambios reales)
       - name: Commit and Push Changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-
           git add *.svg *.gif
           if git diff --cached --quiet; then
             echo "No hay cambios nuevos para commitear."
             exit 0
           fi
-
           git commit -m "chore: update snake contribution [skip ci]"
-          git push origin main --force
+          git push origin ${{ env.TARGET_BRANCH }}
+
