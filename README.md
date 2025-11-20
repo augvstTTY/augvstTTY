@@ -1,5 +1,5 @@
 ## ↳  This is my garage.
-**Mechatronics Student** | **CS Graduate**
+**Mechatronics Eng. Student** | **CS Graduate**
 
 Exploring the precise meeting point between code, movement, and design...
 
