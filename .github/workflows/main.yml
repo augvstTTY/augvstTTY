@@ -21,9 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Necesario para acceder al historial completo
-          token: ${{ secrets.GITHUB_TOKEN }}
-          ref: ${{ env.TARGET_BRANCH }}
+          fetch-depth: 0
 
       # 2. Generar las imágenes de la serpiente
       - name: Generate Snake Images
@@ -35,21 +33,20 @@ jobs:
             ./github-snake-dark.svg?palette=github-dark&color_snake=#DC0000 
             ./snake.gif?color_snake=orange
 
-      # 3. Commit y push de cambios (solo si hay cambios reales)
+      # 3. Commit y push de cambios
       - name: Commit and Push Changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
-          # Actualizar con la rama remota
-          git fetch origin
-          git reset --hard origin/${{ env.TARGET_BRANCH }}
-
           git add *.svg *.gif
+          
+          # Verificar si hay cambios reales
           if git diff --cached --quiet; then
             echo "No hay cambios nuevos para commitear."
             exit 0
           fi
 
+          # Hacer commit y push forzado (seguro en este contexto)
           git commit -m "chore: update snake contribution [skip ci]"
-          git push origin ${{ env.TARGET_BRANCH }} --force-with-lease
+          git push origin HEAD:${{ env.TARGET_BRANCH }} --force
