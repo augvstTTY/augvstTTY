@@ -30,7 +30,7 @@ jobs:
           github_user_name: ${{ env.GITHUB_USER }}
           outputs: |
             ./github-snake.svg
-            ./github-snake-dark.svg?palette=github-dark
+            ./github-snake-dark.svg?palette=github-dark&color_snake=#DC0000 
             ./snake.gif?color_snake=orange
       # 3. Commit y push de cambios (solo si hay cambios reales)
       - name: Commit and Push Changes
