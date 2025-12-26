@@ -1,11 +1,12 @@
-## ↳  This is my garage.
-**Mechatronics Eng. Student** | **CS Graduate**
+## ↳  Building systems that work.
+**Backend Developer** | **Mechatronics Eng. Student** | **CS Graduate**
 
-Exploring the precise meeting point between code, movement, and design...
+I focus on clean code, reliable infrastructure, and terminal-first workflows.  
+Inspired by the precision of Formula 1 engineering and the impact of biomedical technology.
 
-I am fascinated by the discipline of **Formula 1** and the purpose of **biomedical technology**; both remind me that progress lies in the details.
-
+### Stack
+`Python` `Bash` `Linux` `Docker` `PostgreSQL` `REST APIs` `Git`
 
 ![Snake animation dark](https://raw.githubusercontent.com/augvstTTY/augvstTTY/main/github-snake-dark.svg)
 
-*"Mai arrendersi, sempre lottare"*
+→ Open to backend/DevOps opportunities.
